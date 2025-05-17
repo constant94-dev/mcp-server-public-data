@@ -4,6 +4,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+gradle/wrapper/gradle-8.13-bin.zip
 
 ### STS ###
 .apt_generated
@@ -62,3 +63,9 @@ Icon?
 .idea/
 *.iml
 out/
+
+# IntelliJ IDEA HTTP Client
+http/
+
+# MCP Log
+webmvc-mcp-server.log
