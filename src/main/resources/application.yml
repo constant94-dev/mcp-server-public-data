@@ -1,0 +1,19 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: look-around
+  main:
+    banner-mode: off
+  ai:
+    mcp:
+      server:
+        name: look-around
+        version: 1.0.0
+
+logging:
+  file: # Optional file logging
+    name: ./webmvc-mcp-server.log
+  pattern:
+    console:
